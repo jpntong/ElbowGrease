@@ -1,0 +1,56 @@
+||||----- Production Notes: Editing General -----||||
+
+Need a way to generate a bug logo in the same place
+every time.
+Need a consistent way to indicate clip placement and
+length.
+Shotgun integration?
+
+What opacity should the overlays be on? 40%?
+
+script to get name of clip from marker
+script for ciggy burn under clip name with interface
+that shows which shots are approved/updated
+
+Take shot length from markers and add to EDL file
+	- Export markers
+	- Convert markers to frame ranges
+	- fill frame ranges
+
+Colourspaces need to be matched BEFORE doing anything
+
+Image overlay (For corner bugs) can be done in AME
+
+||||	----- Production Notes: Team-Up -----	||||
+Might be worth making animatic image planes in future
+to ensure consistent framing.
+
+Character Set-scale Size: 0.76~
+
+PVS script that copies the current timeline key, goes
+to the next key and pastes it (in one click)
+
+Would love to have AutoHotKey installed so I can 
+have custom keybinds
+
+AHK Script Ideas:
+ - Autoplayblast Cam Window
+ - 
+
+Rig notes:
+
+-	Please use nurb poly sphere for controls instead
+	of standard poly spheres
+-	Include sets as part of rig (Some may be better
+	suited to char sets)
+		- Full set, all ctrls.
+		- Hands
+		- Face
+		- Arms
+		- Legs
+		- Torso
+		
+-	Always have char name written in nurb at MAIN ctrl
+
+-	Please add option to lock x,y axis on elbow.
+	nice to have sometimes - in the way other times.
