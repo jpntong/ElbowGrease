@@ -1,5 +1,6 @@
 SetWorkingDir %A_ScriptDir%
 #NoEnv
+#Warn
 #SingleInstance force
 #MaxHotkeysPerInterval 2000
 
@@ -16,8 +17,14 @@ Menu, Tray, Icon, shell32.dll, 283
 ;The spacebar on the macropad. Make sure to press it in the middle.
 
 ^!F21::
-id := WinExist("A")
-MsgBox % id
+;id := WinExist("A")
+;MsgBox % id
+SetKeyDelay, 100
+send, {shift down}
+send, {Numpad2}
+send, {Numpad3}
+send, {Numpad2}
+send, {shift up}
 Return
 
 
@@ -63,9 +70,6 @@ ifWinActive, ahk_exe AfterFX.exe
 Msgbox, ae
 Return
 } 
-
-
-
 
 
 ; ------ Premiere Pro------
@@ -227,6 +231,7 @@ Return
 
 ; ------ After Effects Scripts ------
 ; Following commands only work in AfterFX... until the next Section.
+#IfWinActive ahk_exe Adobe AfterFX.exe
 
 ;Change Framerate to 25
 ;ctl alt g 25 enter when clip selected
@@ -241,3 +246,44 @@ Return
 ;Change framerate to specified, for the specified number of clips
 ;-- could merge these two with premiere and have them be app dependent
 
+;New Sequence from file (CHM Layer), named properly
+^!F20:: ;Subtract on NyquistPad
+Send, !\
+sleep, 100
+Send, ^k
+Send, {right}
+Send, {backspace 4}
+Send, {enter}
+return
+
+;Freeze BG backwards
+^!F16:: ;Pause on NyquistPad
+SetKeyDelay, 100
+send, ^!+{right}
+send, ^{right}
+send, {Numpad2}
+send, ^+d
+send, {Numpad3}
+send, !t
+send, {home}
+send, ![
+send, {Numpad3}
+send, ^d
+send, {Numpad2}
+send, ^d
+send, {Numpad3}
+send, ^!+{down}
+send, {Numpad4}
+send, ^!+{down}
+return
+
+
+
+;Freeze BG forwards
+^!F17:: ;Insert on NyquistPad
+return
+
+
+
+
+; ------ Premiere Pro & After Effects Scripts ------
