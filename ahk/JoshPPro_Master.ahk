@@ -110,6 +110,31 @@ Click, 3
 send ^c
 Return
 
+;;Send Cirlce Game to Hangouts
+^!F22::
+WinActivate, Google Hangouts
+ifWinActive, Google Hangouts
+{
+send, test
+}
+else
+{
+msgbox, hangouts isn't open dummy
+return
+}
+;------------------------for copying images to clipboard
+; store an image from the clipboard to a file
+^!F5::
+FileAppend, %ClipboardAll%, my_clip_image.img ; The file extension does not matter.
+return
+
+; read an image from a file into the clipboard
+^!F6::
+FileRead, Clipboard, *c gottem.png ; Note the use of *c, which must precede the filename.
+return
+;------------------------for copying images to clipboard
+
+
 ;ifWinActive, ahk_exe Adobe Premiere Pro.exe
 ;{
 ;Send, ^+S
@@ -158,6 +183,7 @@ global savedEXE = lolexe ;is this the way to do it? IDK.
 global savedCLASS = "ahk_class Notepad++"
 global savedEXE = "notepad++.exe"
 
+;______________________________________________________________
 switchToSavedApp(savedCLASS)
 {
 ;msgbox,,, savedCLASS is %savedCLASS%,0.5
@@ -179,7 +205,7 @@ windowSwitcher(savedCLASS, savedEXE)
 
 
 
-
+;______________________________________________________________
 back(){
 ;; if WinActive("ahk_class MozillaWindowClass")
 ;tooltip, baaaack
@@ -205,8 +231,8 @@ if WinActive("ahk_class OpusApp")
 
 ;macro key 16 on my logitech G15 keyboard. It will activate firefox,, and if firefox is already activated, it will go to the next window in firefox.
 
+;______________________________________________________________
 switchToFirefox(){
-sleep 16 ;So this is here because I think that with the way I have iCUE set up, it won't always get to the Right CTRL UP event because it's no longer on that profile, you know what I mean? So this gives it a bit more time to do that.
 
 sendinput, {SC0E8} ;scan code of an unassigned key. Do I NEED this?
 
@@ -254,7 +280,7 @@ send, {Lctrl up}
 
 #IfWinActive
 ;Press SHIFT and macro key 16, and it'll switch between different WINDOWS of firefox.
-
+;______________________________________________________________
 switchToOtherFirefoxWindow(){
 ;sendinput, {SC0E8} ;scan code of an unassigned key
 Process, Exist, firefox.exe
@@ -277,6 +303,7 @@ Process, Exist, firefox.exe
 ; If explorer is already active, it will go to the NEXT last Explorer window you had open.
 ; CTRL Numpad2 is pressed with a single button stoke from my logitech G15 keyboard -- Macro key 17. 
 
+;______________________________________________________________
 switchToExplorer(){
 IfWinNotExist, ahk_class CabinetWClass
 	Run, explorer.exe
@@ -307,6 +334,7 @@ send, {Lctrl up}
 ;closes all explorer windows :/
 ;^!F2 -- for searchability
 
+;______________________________________________________________
 closeAllExplorers()
 {
 WinClose,ahk_group taranexplorers
@@ -315,7 +343,7 @@ WinClose,ahk_group taranexplorers
 ; https://autohotkey.com/board/topic/88648-close-all-explorer-windows/
 }
 
-
+;______________________________________________________________
 switchToPremiere(){
 IfWinNotExist, ahk_class Premiere Pro
 	{
@@ -345,7 +373,7 @@ send, {Lctrl up}
 ;IDK if that even works...
 }
 
-
+;______________________________________________________________
 switchToWord()
 {
 ;tooltip, why
@@ -369,7 +397,7 @@ send, {Lctrl up}
 ;IDK if that even works...
 }
 
-
+;______________________________________________________________
 switchWordWindow()
 {
 ; Process, Exist, WINWORD.EXE
@@ -387,7 +415,7 @@ switchWordWindow()
 }
 
 
-
+;______________________________________________________________
 switchToChrome()
 {
 IfWinNotExist, ahk_exe chrome.exe
@@ -404,14 +432,15 @@ send, {Lctrl up}
 ;IDK if that even works...
 }
 
-switchToStreamDeck(){
-IfWinNotExist, ahk_exe StreamDeck.exe
+;______________________________________________________________
+switchToNotepadPlusPlus(){
+IfWinNotExist, ahk_exe notepad++.exe
 	{
-	Run, C:\Program Files\Elgato\StreamDeck\StreamDeck.exe
+	Run, C:\Program Files\Notepad++\notepad++.exe
 	}
 else
 	{
-	WinActivate ahk_exe StreamDeck.exe
+	WinActivate ahk_exe notepad++.exe
 	}
 }
 
@@ -439,6 +468,9 @@ switchEND:
 ;Switchers_HotKeys______________________________________
 
 ^!+F14::switchToExplorer()
+^!+F13::switchToFirefox()
+^!+F16::switchToPremiere()
+^!+F15::switchToNotepadPlusPlus()
 
 
 ;________________________________________________________________
@@ -621,8 +653,8 @@ Return
 ;Change framerate to specified, for the specified number of clips
 ;-- could merge these two with premiere and have them be app dependent
 
-;New Sequence from file (CHM Layer), named properly
-^!F13:: ;black1
+;New Sequence from file (LGT Layer), named properly
+^!F24:: ;row2col6 --- this is normally on row1col1
 Send, !\
 sleep, 100
 Send, ^k
@@ -639,6 +671,28 @@ send, ^!+{down}
 send, ^d
 send, {Numpad3}
 send !s
+return
+
+;New Sequence from file (CHM Layer), named properly
+^!F13:: ;black1
+send, {down}
+Send, !\
+sleep, 100
+Send, ^k
+Send, {right}
+Send, {backspace 4}
+Send, {enter}
+sleep, 300
+Click
+sleep, 300
+send, {down}
+sleep, 50
+send, ^/			;---send selected clip to comp (goes to top)
+sleep, 300
+send, {Numpad1}
+send, ^!+{down}
+send, {Numpad2}
+;send !s			;--- solo layer
 return
 
 ;New Sequence and apply FX presets
@@ -765,7 +819,7 @@ return
 ;---Create New Lumetri
 ^!F16:: ;black row1 col4
 blockinput on
-SetKeyDelay, 25
+SetKeyDelay, 40
 Click, right
 sleep, 100
 send {up}
