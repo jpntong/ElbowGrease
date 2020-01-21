@@ -1,0 +1,307 @@
+----| CLOCKIFY | CLOCKIFY | CLOCKIFY | CLOCKIFY |----
+
+- |||| ---- |||| ---- Notes BGN ---- |||| ---- |||| -
+	1080TI is at w34
+	MALvm01 	(r24)
+	marender 	(superuser)
+	16 & 19 have FL and RSMB
+
+_______________________SHOWREEL______________________
+
+For the client one we stick to the plan we had and keep it pipeline step based. We'll need title cards and footer added for the shows.
+
+These are just examples of what can be included for the steps, we need to pick our best work for each;
+
+Dreamworks CHM
+Mr Lewis
+Beijing Parrot (Alex)
+TUP ROM
+BAT ROM
+CRP ROM
+GBD ROM
+RGB2 ROM
+TES Storyboards
+KIDDETS Storyboards
+Batman ANM
+TES ANM
+TUP ANM
+GBD ANM
+MDK ANM
+CRP ANM
+RBG ANM
+PODS ANM
+BJB ANM
+RGB1
+TES NIGHT COMP
+GBD COMP
+TUP COMP
+CRISPY SMOKE  COMP
+BLAZE WATER  COMP
+OZZIE  COMP
+BATMAN 040 COMP
+
+BJB
+Z:\Projects\MAL\BJB1\episodes\001\001SQ000\export
+
+Marvel concept art in here
+Z:\Projects\MAL\SRL1\MA_Showreel_2019\images\Building Worlds
+
+Greg's Temp (CLips, Thunderbirds Etc)
+
+Z:\Projects\MAL\POD1\episodes\001\001SQ001\EDT
+
+Z:\Projects\MAL\BJB1\episodes\001\001SQ000\EDT\work\prem
+
+
+		
+
+		
+- |||| ---- |||| ---- Notes END ---- |||| ---- |||| -
+
+
+		--||--	 TES EDITING CHECKLIST	--||--
+
+		
+		EPISODE PROJECT
+		episodes/###/###SQ000/edit/TES_###_Edit_v001.prproj
+		
+		EXPORT DETAILS
+		Z:\Projects\PGO\TES1\episodes\100\100SQ000\export
+		TES1_Episode##_Boards_wip##
+					   Previs
+					   Anim, etc.
+		
+		
+		EDL:
+		
+			TES_100_SQ  _v001
+					
+					 (exclude <>)
+					
+			Add Asterix:
+				Find what: 		<(.*\r?\n){4}\K>
+				Replace with: 	<\* >
+			
+			Add Shotname Comment:
+				Find what: 		<(^[\d]{3}\s+[^\r]+[\s]+)(\* )(\s+)(\* FROM CLIP NAME: ([A-Z0-9]+))>
+				Replace with: 	<$1$2$5$3$4>
+			
+			Replace AA/V
+				Find what: 		<AX       V     C        >
+				Replace with: 	<AX       AA/V  C        >
+				
+		
+		AUDIO:
+			
+			Name format
+				101SQ002SH005
+			aif, MA_AUDIOMayashots
+		
+		--||--	 TES ENVIRONMENT CHECKLIST	--||-- 	
+		
+		TES Modelling Lambert:
+		Colour H:0 S:0 V:0.5
+		Ambient H:0 S:0 V:0.5
+		Diifuse 0.8
+		
+		TES Modelling Lights:
+		DirLight1: Intensity: 0.5
+		DirLight2: Intensity: 0.5
+		AmbLight1: Intensity: 1.0
+		
+		
+		
+		--||--	 MSM PACKAGE CHECKLIST	--||-- 
+	Repeating Buildings 
+	Weird Sky 
+	Shadows off 
+	Jagged Edges 
+	General resolution 
+	Floating Objects 
+	Wrong Scale Objects 
+	Lighting Blooms 
+	Window reflections 
+	Night Trees with day lighting 
+	Messy Line renders 	
+	
+||||----- Production Notes: Editing General -----||||
+
+A Change to the VS Script:
+sends to versions folder
+also sends to EDT / latest folder
+
+Shotgun integration?
+
+script for ciggy burn under clip name with interface
+that shows which shots are approved/updated
+
+Colourspaces need to be matched BEFORE doing anything
+
+
+Extras that would improve my editing workflow:
+Premiere Pro / AfterEffects Plugins
+
+ - ProIO
+	https://aescripts.com/pro-io/
+	
+	File management plugin, would allow automatic updating of frames when a new version is submitted, instead of having to update them all manually.
+	
+ - AfterCodecs
+	https://aescripts.com/aftercodecs/
+	
+	More options for exporting codecs, could bring down size of files considerably
+	
+ - Voukoder
+	https://www.voukoder.org/
+	
+	Same as above, but an open source version.
+
+ - Rename and Change Toolkit
+	https://aescripts.com/rename-and-change-toolkit-for-premiere/
+	
+	Often requirements change half way through an edit, and having to rename files in premiere is tedious and time consuming.
+
+	
+Standalone Programs:
+
+ - AutoHotKey
+	https://www.autohotkey.com/
+	
+	Premiere allows for custom keybinds for all of its fucntions, this pairs nicely with that, allowing custom input scripting so that multiple functions can be chained together.
+	I use this to streamline processes in almost all of the production programs I use at home.
+	
+	
+ - Windows-10-Virtual-Desktop-Switching-Shortcut https://github.com/nullpo-head/Windows-10-Virtual-Desktop-Switching-Shortcut
+ 
+ 
+	
+ - MPC-HC (K-Lite Codecs)
+	https://www.codecguide.com/download_kl.htm
+	
+	MPC-HC can play literally any file, Similar to VLC, but is more stable and lighter. Could do with a universal video player for playback of MOVs (which aren't in H.264) and other codecs that aren't natively supported by windows.
+	
+	
+	
+	
+MACRO IDEAS:
+
+PREMIERE:
+	-	"v001-v009" button
+			perhaps, ctrl+alt+shift + num?
+	-	Save as, erase "v000", add "v001".
+			Save as incremental for programs that dont have it
+cpt	-	HOME, >x5, END, <x5, .
+			importing at the correct frame range
+			Could put a double click at the beginning too
+cpt	-	Same as above ^ but more complicated
+	Indicate how many clips there are and repeat the action that many times
+	Select the first clip, and press the macro key
+	SHIFT-O, >x5, END, <x5, ., CTRL-SHIFT-,, REPEAT
+	
+	
+	-	D, CTRL+K, D, Del, \/, D, /\, Shift+w
+			Assuming Audiolocked, select current track, make a cut, delete following, and fill next clip backwards.
+			(CTRL+Down also selects the next clip, but only on the input track)
+			(maybe a similar one for previous clip too)
+		
+cpt	-	ALT+DEL, TABx4, Space, Enter (audio)
+		ALT+DEL, TABx2, Space, Enter (video)
+			Delete all unused tracks: audio/video
+	
+cpt	-	(hover track) rClick, DOWNx4, Enter
+			Delete hovered track
+			
+	-	CTRL+SHIFT+N, paste shotcode, next activation pastes following shotcode
+			resetable shot counter, that allows you to select clips for the shot and hit one button to same next in the sequence
+
+	-	ALT+A, ALT+D, find Shotnum, input next shotnum (005->010), end, bkspce, UPARROW, Enter, TABx4, DOWNARROW, UPARROW, ENTER
+			Import next clip in sequence
+
+GENERAL 
+	- Passwords lol
+	
+
+||||	----- Production Notes: Team-Up -----	||||
+Might be worth making animatic image planes in future
+to ensure consistent framing.
+
+Character Set-scale Size: 0.76~
+
+PVS script that copies the current timeline key, goes
+to the next key and pastes it (in one click)
+
+Would love to have AutoHotKey installed so I can 
+have custom keybinds
+
+AHK Script Ideas:
+ - Autoplayblast Cam Window
+ - Premiere Copy, paste, rename with number script
+
+Rig notes:
+
+-	Please use nurb poly sphere for controls instead
+	of standard poly spheres (so I can turn of poly selection)
+-	Include sets as part of rig (Some may be better
+	suited to char sets)
+		- Full set, all ctrls.
+		- Hands
+		- Face
+		- Arms
+		- Legs
+		- Torso
+		
+-	Always have char name written in nurb at MAIN ctrl
+
+-	Please add option to lock x,y axis on elbow.
+	nice to have sometimes - in the way other times.
+	
+-	Can we have a control to freeze sections of controls.
+	Mostly just for doing facial, and freezing the body in place.
+
+
+Easy Listening:
+	ASoIaF			TWoIaF - 7.4.2
+	
+	
+Unused tool names:
+Lorry
+ElbowGrease
+ToolBelt
+Pegboard
+Mallet
+GearBox
+TowTruck
+Friday
+Gauntlet
+
+NOTES FOR PGO
+
+Are we handling the final grade for the animation?
+Are we handling the grade for the plates?
+Either way it will help if I know which camera they will be using so I can match colourspaces
+For delivery - are uncompressed frames best? We're able to deliver in either of TVNZ's preferred formats if it doesn't need to be edited further.
+If it's being delivered uncompressed do you prefer a certain format? Movie file or frames? If there's no preference that's fine too.
+Is only a 1080p version required? Would you also like another version up-scaled to a higher resolution? 
+(TVNZ Broadcast and Heihei only need 1080p, but if it's also on a platform like Youtube I can optimize a higher res version to help keep the re-encode tidy)
+Are we delivering on a shot-by-shot basis, or as a complete timed animation?
+EG: [Shot 1-3] [Live Action] [Shot 4] [Live Action] [Shot 5-6]
+							or
+	[Shot 1][Shot 2][Shot 3] [Live Action] [Shot 4] [Live Action] [Shot 5][Shot 6]
+
+
+Things that need documentation:
+
+PSD - 3DSMax to Photoshop
+
+Check the asset notes to see which shots require PSD
+Open the Package Scene in 3DSMax and save it to PSD with Shotgun
+Open ToolBox, then Open it again to properly load the PSD Script
+
+----| CLOCKIFY | CLOCKIFY | CLOCKIFY | CLOCKIFY |----
+
+Dumb things to send in chat:
+
+( ͡° ͜ʖ ͡°)
+( ͡ ↑    ͜ʖ ͡ ↑   )
+
+
