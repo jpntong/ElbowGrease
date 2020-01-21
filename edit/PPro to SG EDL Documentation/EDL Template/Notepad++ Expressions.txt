@@ -1,0 +1,9 @@
+01
+
+Find what: (.*\r?\n){4}\K
+Replace with: \*{SPACE}
+
+02
+
+Find what: (^[\d]{3}\s+[^\r]+[\s]+)(\* )(\s+)(\* FROM CLIP NAME: ([A-Z0-9]+))
+Replace with: $1$2$5$3$4
