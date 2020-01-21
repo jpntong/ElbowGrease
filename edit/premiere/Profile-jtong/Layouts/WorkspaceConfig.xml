@@ -1,0 +1,166 @@
+<?xml version='1.0'?>
+<prop.map version='4'>
+<prop.list>
+<prop.pair>
+<key>BuiltInKeys</key>
+<array>
+<array.type><string/></array.type>
+<string>$$$/Premiere/FrontEnd/Learning=Learning</string>
+<string>$$$/Premiere/FrontEnd/AllPanels=All Panels</string>
+<string>$$$/Premiere/FrontEnd/Assembly=Assembly</string>
+<string>$$$/Premiere/FrontEnd/Editing=Editing</string>
+<string>$$$/Premiere/FrontEnd/Color=Color</string>
+<string>$$$/Premiere/FrontEnd/Effects=Effects</string>
+<string>$$$/Premiere/FrontEnd/Audio=Audio</string>
+<string>$$$/Premiere/FrontEnd/Metalogging=Metalogging</string>
+<string>$$$/Premiere/FrontEnd/Graphics=Graphics</string>
+<string>$$$/Premiere/FrontEnd/Libraries=Libraries</string>
+</array>
+</prop.pair>
+<prop.pair>
+<key>BuiltIns</key>
+<array>
+<array.type><ustring/></array.type>
+</array>
+</prop.pair>
+<prop.pair>
+<key>FilePaths</key>
+<array>
+<array.type><ustring/></array.type>
+<ustring>C:\Users\jtong\Documents\Adobe\Premiere Pro\12.0\Profile-jtong\ArchivedLayouts\UserWorkspace1.xml</ustring>
+<ustring>C:\Users\jtong\Documents\Adobe\Premiere Pro\12.0\Profile-jtong\ArchivedLayouts\UserWorkspace10.xml</ustring>
+<ustring>C:\Users\jtong\Documents\Adobe\Premiere Pro\12.0\Profile-jtong\ArchivedLayouts\UserWorkspace14.xml</ustring>
+<ustring>C:\Users\jtong\Documents\Adobe\Premiere Pro\12.0\Profile-jtong\ArchivedLayouts\UserWorkspace5.xml</ustring>
+<ustring>C:\Users\jtong\Documents\Adobe\Premiere Pro\12.0\Profile-jtong\ArchivedLayouts\UserWorkspace11.xml</ustring>
+<ustring>C:\Users\jtong\Documents\Adobe\Premiere Pro\12.0\Profile-jtong\Layouts\UserWorkspace9.xml</ustring>
+<ustring>C:\Users\jtong\Documents\Adobe\Premiere Pro\12.0\Profile-jtong\Layouts\UserWorkspace12.xml</ustring>
+<ustring>C:\Users\jtong\Documents\Adobe\Premiere Pro\12.0\Profile-jtong\Layouts\UserWorkspace3.xml</ustring>
+<ustring>C:\Users\jtong\Documents\Adobe\Premiere Pro\12.0\Profile-jtong\Layouts\UserWorkspace7.xml</ustring>
+<ustring>C:\Users\jtong\Documents\Adobe\Premiere Pro\12.0\Profile-jtong\Layouts\UserWorkspace1.xml</ustring>
+<ustring>C:\Users\jtong\Documents\Adobe\Premiere Pro\12.0\Profile-jtong\Layouts\UserWorkspace2.xml</ustring>
+<ustring>C:\Users\jtong\Documents\Adobe\Premiere Pro\12.0\Profile-jtong\Layouts\UserWorkspace8.xml</ustring>
+<ustring>C:\Users\jtong\Documents\Adobe\Premiere Pro\12.0\Profile-jtong\Layouts\UserWorkspace10.xml</ustring>
+<ustring>C:\Users\jtong\Documents\Adobe\Premiere Pro\12.0\Profile-jtong\Layouts\UserWorkspace14.xml</ustring>
+<ustring>C:\Users\jtong\Documents\Adobe\Premiere Pro\12.0\Profile-jtong\Layouts\UserWorkspace5.xml</ustring>
+<ustring>C:\Users\jtong\Documents\Adobe\Premiere Pro\12.0\Profile-jtong\Layouts\UserWorkspace4.xml</ustring>
+<ustring>C:\Users\jtong\Documents\Adobe\Premiere Pro\12.0\Profile-jtong\Layouts\UserWorkspace11.xml</ustring>
+<ustring>C:\Users\jtong\Documents\Adobe\Premiere Pro\12.0\Profile-jtong\Layouts\UserWorkspace6.xml</ustring>
+<ustring>C:\Users\jtong\Documents\Adobe\Premiere Pro\12.0\Profile-jtong\Layouts\UserWorkspace13.xml</ustring>
+</array>
+</prop.pair>
+<prop.pair>
+<key>MainWndPos</key>
+<prop.list>
+<prop.pair>
+<key>MaxPos</key>
+<array>
+<array.type><int type='signed' size='32'/></array.type>
+<int type='signed' size='32'>-1</int>
+<int type='signed' size='32'>-1</int>
+</array>
+</prop.pair>
+<prop.pair>
+<key>MinPos</key>
+<array>
+<array.type><int type='signed' size='32'/></array.type>
+<int type='signed' size='32'>-1</int>
+<int type='signed' size='32'>-1</int>
+</array>
+</prop.pair>
+<prop.pair>
+<key>NormalPos</key>
+<array>
+<array.type><int type='signed' size='32'/></array.type>
+<int type='signed' size='32'>517</int>
+<int type='signed' size='32'>115</int>
+<int type='signed' size='32'>2417</int>
+<int type='signed' size='32'>1135</int>
+</array>
+</prop.pair>
+<prop.pair>
+<key>ShowCmd</key>
+<int type='signed' size='32'>3</int>
+</prop.pair>
+</prop.list>
+</prop.pair>
+<prop.pair>
+<key>ModifiedTimes</key>
+<array>
+<array.type><string/></array.type>
+<string>20190111T220423.272132</string>
+<string>20190822T221358.332777</string>
+<string>20190910T022039.278526</string>
+<string>20190621T043308.981257</string>
+<string>20190620T220711.495111</string>
+<string>20190620T215301.699148</string>
+<string>20190621T035342.941398</string>
+<string>20190812T041034.346835</string>
+<string>20190621T043328.368927</string>
+<string>20191002T215915.991225</string>
+<string>20190527T052537.881299</string>
+<string>20190621T035130.788879</string>
+<string>20191208T203917.354706</string>
+<string>20191216T211248.138317</string>
+<string>20190806T230514.721678</string>
+<string>20190606T002151.010400</string>
+<string>20190717T014915.741644</string>
+<string>20190517T043311.000392</string>
+<string>20190621T041732.201967</string>
+</array>
+</prop.pair>
+<prop.pair>
+<key>UserNames</key>
+<array>
+<array.type><ustring/></array.type>
+<ustring>DefaultMech</ustring>
+<ustring>ElbowGrease_Editing_v001</ustring>
+<ustring>ElbowGrease_Editing_v002</ustring>
+<ustring>ElbowGrease_Subtitle_v001</ustring>
+<ustring>JoshPro_SubtitlingHalfling</ustring>
+<ustring>$$$/Premiere/FrontEnd/AllPanels=All Panels</ustring>
+<ustring>$$$/Premiere/FrontEnd/Assembly=Assembly</ustring>
+<ustring>$$$/Premiere/FrontEnd/Audio=Audio</ustring>
+<ustring>$$$/Premiere/FrontEnd/Color=Color</ustring>
+<ustring>DefaultMech</ustring>
+<ustring>$$$/Premiere/FrontEnd/Editing=Editing</ustring>
+<ustring>$$$/Premiere/FrontEnd/Effects=Effects</ustring>
+<ustring>ElbowGrease_Editing_v001</ustring>
+<ustring>ElbowGrease_Editing_v002</ustring>
+<ustring>ElbowGrease_Subtitle_v001</ustring>
+<ustring>$$$/Premiere/FrontEnd/Graphics=Graphics</ustring>
+<ustring>JoshPro_SubtitlingHalfling</ustring>
+<ustring>$$$/Premiere/FrontEnd/Learning=Learning</ustring>
+<ustring>$$$/Premiere/FrontEnd/Libraries=Libraries</ustring>
+</array>
+</prop.pair>
+<prop.pair>
+<key>WorkspaceConfigVersion</key>
+<string>1.1</string>
+</prop.pair>
+<prop.pair>
+<key>WorkspaceTypes</key>
+<array>
+<array.type><int type='signed' size='32'/></array.type>
+<int type='signed' size='32'>0</int>
+<int type='signed' size='32'>0</int>
+<int type='signed' size='32'>0</int>
+<int type='signed' size='32'>0</int>
+<int type='signed' size='32'>0</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+<int type='signed' size='32'>1</int>
+</array>
+</prop.pair>
+</prop.list>
+</prop.map>
