@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PremiereData Version="3">
+	<providers Version="2">
+		<providercount>5</providercount>
+		<provider.0 Version="1">
+			<columncount>6</columncount>
+			<providername>com.adobe.Premiere.ProviderAEProject</providername>
+			<column.5 Version="1">
+				<width>170.</width>
+				<field>duration</field>
+			</column.5>
+			<column.2 Version="1">
+				<width>170.</width>
+				<field>videoFrameRate</field>
+			</column.2>
+			<column.1 Version="1">
+				<width>170.</width>
+				<field>comment</field>
+			</column.1>
+			<column.4 Version="1">
+				<width>170.</width>
+				<field>audioSampleRate</field>
+			</column.4>
+			<column.0 Version="1">
+				<width>170.</width>
+				<field>Name</field>
+			</column.0>
+			<column.3 Version="1">
+				<width>170.</width>
+				<field>videoFrameSize</field>
+			</column.3>
+		</provider.0>
+		<provider.3 Version="1">
+			<columncount>2</columncount>
+			<providername>com.adobe.Premiere.WinProviderDirectory</providername>
+			<column.1 Version="1">
+				<width>170.</width>
+				<field>02</field>
+			</column.1>
+			<column.0 Version="1">
+				<width>170.</width>
+				<field>Name</field>
+			</column.0>
+		</provider.3>
+		<provider.4 Version="1">
+			<columncount>2</columncount>
+			<providername>com.adobe.Premiere.WinProviderVolume</providername>
+			<column.1 Version="1">
+				<width>170.</width>
+				<field>Path</field>
+			</column.1>
+			<column.0 Version="1">
+				<width>170.</width>
+				<field>Name</field>
+			</column.0>
+		</provider.4>
+		<provider.2 Version="1">
+			<columncount>2</columncount>
+			<providername>com.adobe.Premiere.ProviderFavorites</providername>
+			<column.1 Version="1">
+				<width>170.</width>
+				<field>Path</field>
+			</column.1>
+			<column.0 Version="1">
+				<width>170.</width>
+				<field>Name</field>
+			</column.0>
+		</provider.2>
+		<provider.1 Version="1">
+			<columncount>6</columncount>
+			<providername>com.adobe.Premiere.ProviderBin</providername>
+			<column.5 Version="1">
+				<width>170.</width>
+				<field>duration</field>
+			</column.5>
+			<column.2 Version="1">
+				<width>170.</width>
+				<field>videoFrameRate</field>
+			</column.2>
+			<column.1 Version="1">
+				<width>170.</width>
+				<field>comment</field>
+			</column.1>
+			<column.4 Version="1">
+				<width>170.</width>
+				<field>audioSampleRate</field>
+			</column.4>
+			<column.0 Version="1">
+				<width>170.</width>
+				<field>Name</field>
+			</column.0>
+			<column.3 Version="1">
+				<width>170.</width>
+				<field>videoFrameSize</field>
+			</column.3>
+		</provider.1>
+	</providers>
+</PremiereData>
