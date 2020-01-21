@@ -1,0 +1,920 @@
+Application		
+	Selection	V	
+	Camera (Cycle Forward)	C	
+	Camera (Cycle Backward)	Shift+C	
+	Hand	H	
+	Zoom	Z	
+	Shape / Mask (Cycle Forward)	Q	
+	Shape / Mask (Cycle Backward)	Shift+Q	
+	Paint (Brush/Clone/Eraser)	Ctrl+B	
+	Pan Behind (Anchor Point)	Y	
+	Pen / Mask Feather (Cycle Forward)	G	
+	Pen / Mask Feather (Cycle Backward)	Shift+G	
+	Puppet (Pin/Overlap/Starch)	Ctrl+P	
+	Rotate	W	
+	Roto Brush / Refine Edge	Alt+W	
+	Text	Ctrl+T	
+	File		
+		New		
+			New Project	Ctrl+Alt+N	
+			New Team Project...		
+			New Folder	Ctrl+Alt+Shift+N	
+			Adobe Photoshop File...		
+			MAXON CINEMA 4D File...		
+		Open Project	Ctrl+O	
+		Open Team Project...		
+		Open Recent		
+			Open Most Recent Project	Ctrl+Alt+Shift+P	
+			2 Z:\Projects\PGO\TES1\episodes\107\107SQ000\EDT\fx\107SQ008SH035_FX\107SQ008SH035_FX_v001.aep		
+			3 Z:\Projects\PGO\TES1\episodes\107\107SQ000\EDT\fx\105SQ008SH035_FX\105SQ008SH035_FX_v001.aep		
+			4 Z:\Projects\PGO\TES1\episodes\105\105SQ000\EDT\fx\105SQ005SH065_FX\105SQ005SH065_FX_v001.aep		
+			5 Z:\Projects\PGO\TES1\episodes\105\105SQ000\EDT\comp\SQ005\105SQ005.aep		
+			6 Z:\Projects\PGO\TES1\episodes\105\105SQ000\EDT\comp\SQ003\105SQ003.aep		
+			7 Z:\Projects\PGO\TES1\episodes\105\105SQ000\EDT\comp\SQ002\105SQ002.aep		
+			8 Z:\Projects\PGO\TES1\episodes\105\105SQ000\EDT\comp\SQ004\105SQ004.aep		
+			9 Z:\Projects\PGO\TES1\episodes\107\107SQ000\EDT\comp\SQ004\107SQ004.aep		
+			10 S:\MVL\jtong\MA Edit\TES_edit_2309\_AE Template\MA_IntroLogo.aep		
+		Browse in Bridge	Ctrl+Alt+Shift+O	
+		Close Current Panel or Viewer Contents	Ctrl+W	
+		Close Project	Ctrl+Shift+W	
+		Save Project	Ctrl+S	
+		Save As		
+			Save Project As	Ctrl+Shift+S	
+			Save a Copy...		
+			Save a Copy As XML...		
+			Save a Copy As CC (14)...		
+			Save a Copy As CC (13)...		
+		Increment and Save Project	Ctrl+Alt+Shift+S	
+		Revert		
+		Import		
+			Import File	Ctrl+I, Alt+A	
+			Import Multiple Files	Ctrl+Alt+I	
+			From Libraries...		
+			Import Adobe Premiere Pro Project...		
+			Pro Import After Effects...		
+			Vanishing Point (.vpe)...		
+			Placeholder...		
+			Solid...		
+		Import Recent Footage		
+			1 Z:\Projects\PGO\TES1\episodes\...\107SQ003SH035\MPT\versions\v001\107SQ003SH035_MPT_v001.1001.exr		
+			2 Z:\Projects\PGO\TES1\episodes\...\107SQ003SH035\LGT\versions\v001\107SQ003SH035_LGT_v001.1001.exr		
+			3 Z:\Projects\PGO\TES1\episodes\...\107SQ003SH030\MPT\versions\v001\107SQ003SH030_MPT_v001.1001.exr		
+			4 Z:\Projects\PGO\TES1\episodes\...\107SQ003SH030\LGT\versions\v001\107SQ003SH030_LGT_v001.1001.exr		
+			5 Z:\Projects\PGO\TES1\episodes\...\107SQ003SH025\MPT\versions\v001\107SQ003SH025_MPT_v001.1001.exr		
+			6 Z:\Projects\PGO\TES1\episodes\...\107SQ003SH025\LGT\versions\v003\107SQ003SH025_LGT_v003.1001.exr		
+			7 Z:\Projects\PGO\TES1\episodes\...\107SQ003SH020\MPT\versions\v001\107SQ003SH020_MPT_v001.1001.exr		
+			8 Z:\Projects\PGO\TES1\episodes\...\107SQ003SH020\LGT\versions\v002\107SQ003SH020_LGT_v002.1001.exr		
+			9 Z:\Projects\PGO\TES1\episodes\...\107SQ003SH015\MPT\versions\v001\107SQ003SH015_MPT_v001.1001.exr		
+			10 Z:\Projects\PGO\TES1\episodes\...\107SQ003SH015\LGT\versions\v001\107SQ003SH015_LGT_v001.1001.exr		
+		Export		
+			Add to Adobe Media Encoder Queue...		
+			Add to Render Queue		
+			Export Adobe Premiere Pro Project...		
+			MAXON Cinema 4D Exporter...		
+		Add Fonts from Typekit...		
+		Adobe Dynamic Link		
+			New Premiere Pro Sequence...		
+			Import Premiere Pro Sequence...		
+		Find (Search Filter)	Ctrl+F	
+		Add Footage Item to Comp	Ctrl+/	
+		New Comp from Selection	Alt+¥, Alt+\	
+		Dependencies		
+			Collect Files...		
+			Consolidate All Footage		
+			Remove Unused Footage		
+			Reduce Project		
+			Find Missing Effects		
+			Find Missing Fonts		
+			Find Missing Footage		
+		Watch Folder...		
+		Scripts		
+			Run Script File...		
+			Open Script Editor		
+			Recent Script Files		
+				dummy	Ctrl+Alt+Shift+D	
+			Change Render Locations.jsx		
+			Convert Selected Properties to Markers.jsx		
+			Demo Palette.jsx		
+			Double-Up.jsx		
+			Find and Replace Text.jsx		
+			Render and Email.jsx		
+			Scale Composition.jsx		
+			Scale Selected Layers.jsx		
+			Smart Import.jsx		
+			Sort Layers by In Point.jsx		
+			UpgradeLegacyBlurs.jsx		
+		Create Proxy		
+			Still...		
+			Movie...		
+		Set Proxy		
+			Set Proxy for Selected Footage Item	Ctrl+Alt+P	
+			None		
+		Interpret Footage		
+			Interpret Footage	Ctrl+Alt+G	
+			Proxy...		
+			Remember Interpretation of Footage Item	Ctrl+Alt+C	
+			Apply Remembered Interpretation of Footage Item	Ctrl+Alt+V	
+		Replace Footage		
+			Replace Footage	Ctrl+H	
+			With Layered Comp		
+			Placeholder...		
+			Solid...		
+		Reload Selected Footage Items	Ctrl+Alt+L	
+		License...		
+		Reveal in Explorer	Alt+D	
+		Reveal in Bridge		
+		Project Settings	Ctrl+Alt+Shift+K	
+		Quit	Ctrl+Q	
+	Edit		
+		Undo Last Action	Ctrl+Z	
+		Redo Last Action	Ctrl+Shift+Z	
+		Cut	Ctrl+X	
+		Copy	Ctrl+C	
+		Copy with Property Links	Ctrl+Alt+C	
+		Copy with Relative Property Links		
+		Copy Expression Only		
+		Paste	Ctrl+V	
+		Clear	Clear (Num), Delete, Backspace	
+		Duplicate	Ctrl+D	
+		Split Layer at Current Time	Ctrl+Shift+D	
+		Lift Work Area		
+		Extract Work Area		
+		Select All	Ctrl+A	
+		Deselect All Layers	F2, Ctrl+Shift+A	
+		Label		
+			Select Label Group		
+			None		
+			Red		
+			Yellow		
+			Aqua		
+			Pink		
+			Lavender		
+			Peach		
+			Sea Foam		
+			Blue		
+			Green		
+			Purple		
+			Orange		
+			Brown		
+			Fuchsia		
+			Cyan		
+			Sandstone		
+			Dark Green		
+		Purge		
+			All Memory  Disk Cache...		
+			Purge All Memory	Ctrl+Alt+/ (Num)	
+			Undo		
+			Image Cache Memory		
+			Snapshot		
+		Edit Original	Ctrl+E	
+		Edit in Adobe Audition		
+		Team Project		
+			Get Latest Changes		
+			Share My Changes...		
+			Resolve Conflicts...		
+			Convert Team Project to Project...		
+			Media Management...		
+		Templates		
+			Render Settings...		
+			Output Module...		
+		Preferences		
+			Preferences	Ctrl+Alt+;	
+			Previews...		
+			Display...		
+			Import...		
+			Output...		
+			Grids  Guides...		
+			Labels...		
+			Media  Disk Cache...		
+			Video Preview...		
+			Appearance...		
+			New Project...		
+			Auto-Save...		
+			Memory...		
+			Audio Hardware...		
+			Audio Output Mapping...		
+			Sync Settings...		
+			Type...		
+		joshua@mechanicanimation.com		
+			Sync Settings Now...		
+			Last Update: 		
+			Use Settings From a Different Account...		
+			Clear Settings...		
+			Manage Sync Settings...		
+			Manage Creative Cloud Account...		
+		Keyboard Shortcuts	Ctrl+Alt+'	
+		Paste mocha mask		
+	Composition		
+		New Composition	Ctrl+N	
+		Composition Settings	Ctrl+K	
+		Set Poster Time		
+		Trim Comp to Work Area	Ctrl+Shift+X	
+		Crop Comp to Region of Interest		
+		Add Comp to Adobe Media Encoder Queue	Ctrl+Alt+M	
+		Add Comp to Render Queue	Ctrl+M, Ctrl+Shift+/	
+		Add Output Module		
+		Preview		
+			Play Current Preview		
+			Audio		
+		Save Frame As		
+			Save Frame As	Ctrl+Alt+S	
+			Photoshop Layers...		
+		Pre-render...		
+		Save Current Preview	Ctrl+0 (Num), Ctrl+ (Num)	
+		Open in Essential Graphics		
+		Show Flowchart for Composition	Ctrl+Shift+F11	
+		Show/Hide Composition Mini-Flowchart	Tab	
+	Layer		
+		New		
+			New Text Layer	Ctrl+Alt+Shift+T	
+			New Solid Layer	Ctrl+Y	
+			New Light Layer	Ctrl+Alt+Shift+L	
+			New Camera Layer	Ctrl+Alt+Shift+C	
+			New Null Object	Ctrl+Alt+Shift+Y	
+			Shape Layer		
+			New Adjustment Layer	Ctrl+Alt+Y	
+			Adobe Photoshop File...		
+			MAXON CINEMA 4D File...		
+		Layer Settings	Ctrl+Shift+Y	
+		Open Layer		
+		Open Layer Source	Alt+Enter (Num)	
+		Reveal in Explorer		
+		Mask		
+			New Mask	Ctrl+Shift+N	
+			Mask Shape (Edit in Dialog Box)	Ctrl+Shift+M	
+			Mask Feather (Edit in Dialog Box)	Ctrl+Shift+F	
+			Mask Opacity...		
+			Mask Expansion...		
+			Reset Mask		
+			Remove Mask		
+			Remove All Masks		
+			Mode		
+				None		
+				Add		
+				Subtract		
+				Intersect		
+				Lighten		
+				Darken		
+				Difference		
+			Invert Mask	Ctrl+Shift+I	
+			Locked		
+			Motion Blur		
+				Same As Layer		
+				On		
+				Off		
+			Feather Falloff		
+				Smooth		
+				Linear		
+			Unlock All Masks		
+			Lock Other Masks		
+			Hide Locked Masks		
+		Mask and Shape Path		
+			RotoBezier		
+			Closed		
+			Set First Vertex		
+			Mask Free-Transform	Ctrl+T	
+		Quality		
+			Set Layer Quality to Best	Ctrl+U	
+			Set Layer Quality to Draft	Ctrl+Shift+U	
+			Set Layer Quality to Wireframe	Ctrl+Alt+Shift+U	
+			Set Layer Sampling Quality to Bilinear	Alt+B	
+			Set Layer Sampling Quality to Bicubic	Alt+Shift+B	
+		Switches		
+			Hide Other Layers' Video	Ctrl+Shift+V	
+			Show All Video		
+			Unlock All Layers	Ctrl+Shift+L	
+			Shy		
+			Toggle Lock Switch for Selected Layers	Ctrl+L	
+			Audio		
+			Toggle Video Switch for Selected Layers	Ctrl+Alt+Shift+V	
+			Solo	Alt+S	
+			Effect		
+			Collapse		
+			Motion Blur		
+			Adjustment Layer		
+		Transform		
+			Reset		
+			Anchor Point...		
+			Position (Edit in Dialog Box)	Ctrl+Shift+P	
+			Scale...		
+			Orientation (Edit in Dialog Box)	Ctrl+Alt+Shift+R	
+			Rotation (Edit in Dialog Box)	Ctrl+Shift+R	
+			Opacity (Edit in Dialog Box)	Ctrl+Shift+O	
+			Flip Horizontal		
+			Flip Vertical		
+			Center Layer in View	Ctrl+Home	
+			Center Anchor Point in Layer Content	Ctrl+Alt+Home	
+			Fit Layer to Comp	Ctrl+Alt+F	
+			Fit Layer to Comp Width	Ctrl+Alt+Shift+H	
+			Fit Layer to Comp Height	Ctrl+Alt+Shift+G	
+			Auto-Orient	Ctrl+Alt+O	
+		Time		
+			Enable Time Remapping	Ctrl+Alt+T	
+			Reverse Layer	Ctrl+Alt+R	
+			Time Stretch...		
+			Freeze Frame	Alt+T	
+			Freeze On Last Frame		
+			Align Video to Data		
+		Frame Blending		
+			Off		
+			Frame Mix		
+			Pixel Motion		
+		3D Layer		
+		Guide Layer		
+		Environment Layer		
+		Add Layer Marker	* (Num)	
+		Preserve Transparency		
+		Blending Mode		
+			Normal		
+			Dissolve		
+			Dancing Dissolve		
+			Darken		
+			Multiply		
+			Color Burn		
+			Classic Color Burn		
+			Linear Burn		
+			Darker Color		
+			Add		
+			Lighten		
+			Screen		
+			Color Dodge		
+			Classic Color Dodge		
+			Linear Dodge		
+			Lighter Color		
+			Overlay		
+			Soft Light		
+			Hard Light		
+			Linear Light		
+			Vivid Light		
+			Pin Light		
+			Hard Mix		
+			Difference		
+			Classic Difference		
+			Exclusion		
+			Subtract		
+			Divide		
+			Hue		
+			Saturation		
+			Color		
+			Luminosity		
+			Stencil Alpha		
+			Stencil Luma		
+			Silhouette Alpha		
+			Silhouette Luma		
+			Alpha Add		
+			Luminescent Premul		
+		Next Layer Blending Mode	Shift+=	
+		Previous Layer Blending Mode	Shift+-	
+		Track Matte		
+			No Track Matte		
+			Alpha Matte		
+			Alpha Inverted Matte		
+			Luma Matte		
+			Luma Inverted Matte		
+		Layer Styles		
+			Convert to Editable Styles		
+			Show All		
+			Remove All		
+			Drop Shadow		
+		Group Shapes	Ctrl+G	
+		Ungroup Shapes	Ctrl+Shift+G	
+		Arrange		
+			Bring Layer to Front	Ctrl+Shift+], Ctrl+Shift+=, Ctrl+Alt+Shift+Up	
+			Bring Layer Forward	Ctrl+], Ctrl+Alt+Up	
+			Send Layer Backward	Ctrl+[, Ctrl+Alt+Down	
+			Send Layer to Back	Ctrl+Shift+[, Ctrl+Shift+-, Ctrl+Alt+Shift+Down	
+		Create		
+			Convert to Editable Text		
+			Create Shapes from Text		
+			Create Masks from Text		
+			Create Shapes from Vector Layer		
+			Create Keyframes from Data		
+		Camera		
+			Create Stereo 3D Rig		
+			Create Orbit Null		
+			Link Focus Distance to Point of Interest		
+			Link Focus Distance to Layer		
+			Set Focus Distance to Layer		
+		Auto-trace...		
+		Pre-compose	Ctrl+Shift+C	
+	Effect		
+		Show/Hide Effect Controls Panel for Selected Layers	F3, Ctrl+Shift+T	
+		Apply Last Effect	Ctrl+Alt+Shift+E	
+		Delete All Effects from Selected Layers	Ctrl+Shift+E	
+	Animation		
+		Save Animation Preset...		
+		Apply Animation Preset...		
+		Recent Animation Presets		
+			Apply Recently Used Animation Preset	Ctrl+Alt+Shift+F	
+			2 BG_DoF		
+			3 BG_ZDepth_Default		
+			4 MIR_PuzzleEXt		
+			5 LUT_StudioCHM_AllCHM		
+			6 LUT_StudioBG_Brighten		
+			7 LUT_StudioCHM_AuntyCU		
+			8 BG_ZDepth_Indoors		
+			9 BG_ZDepth_Indoors_Inverted		
+			10 BG_DoF_Inverted		
+			11 Zoom Away		
+			12 ManiaEye_PatchOnPatch		
+			13 LUT_AuntysLoungeCHM		
+			14 LUT_AuntysLoungeBG		
+			15 LUT_KahusRoomBG		
+			16 Flop		
+			17 Flip + Flop		
+			18 Bloom - brights		
+			19 Bloom - crystallize 2		
+			20 Bloom - crystallize 1		
+		Browse Presets...		
+		Add Keyframe		
+		Toggle Hold Interpolation for Selected Keyframes	Ctrl+Alt+H	
+		Keyframe Interpolation (Edit in Dialog Box)	Ctrl+Alt+K	
+		Keyframe Velocity (Edit in Dialog Box)	Ctrl+Shift+K	
+		Keyframe Assistant		
+			Convert Audio to Keyframes		
+			Convert Expression to Keyframes		
+			Create Keyframes from Data		
+			Set Keyframe to Easy Ease	F9	
+			Set Keyframe to Easy Ease In	Shift+F9	
+			Set Keyframe to Easy Ease Out	Ctrl+Shift+F9	
+			Exponential Scale		
+			RPF Camera Import		
+			Sequence Layers...		
+			Time-Reverse Keyframes		
+		Add Property to Essential Graphics		
+		Animate Text		
+			Enable Per-character 3D		
+			Anchor Point		
+			Position		
+			Scale		
+			Skew		
+			Rotation		
+			Opacity		
+			All Transform Properties		
+			Fill Color		
+				RGB		
+				Hue		
+				Saturation		
+				Brightness		
+				Opacity		
+			Stroke Color		
+				RGB		
+				Hue		
+				Saturation		
+				Brightness		
+				Opacity		
+			Stroke Width		
+			Tracking		
+			Line Anchor		
+			Line Spacing		
+			Character Offset		
+			Character Value		
+			Blur		
+		Add Text Selector		
+			Range		
+			Wiggly		
+			Expression		
+		Remove All Text Animators		
+		Toggle Expression for Selected Properties	Alt+Shift+=	
+		Separate Dimensions		
+		Track Camera		
+		Track in mocha AE		
+		Warp Stabilizer VFX		
+		Track Motion		
+		Track Mask		
+		Track this Property		
+		Show/Hide Properties with Keyframes (Double-Tap)	U	
+		Reveal Properties with Animation		
+		Reveal All Modified Properties		
+	View		
+		Split New Viewer, and Toggle Lock	Ctrl+Alt+Shift+N	
+		Zoom In	., Ctrl+Alt+=	
+		Zoom Out	,, Ctrl+Alt+-	
+		Resolution		
+			Set Comp Resolution to High	Ctrl+J	
+			Set Comp Resolution to Half	Ctrl+Shift+J	
+			Third		
+			Set Comp Resolution to Low	Ctrl+Alt+Shift+J	
+			Custom...		
+		Enable/Disable Display Color Management	Shift+/ (Num)	
+		Simulate Output		
+			No Output Simulation		
+			HDTV (Rec. 709)		
+			SDTV NTSC		
+			SDTV PAL		
+			Legacy Macintosh RGB (Gamma 1.8)		
+			Internet Standard RGB (sRGB)		
+			Kodak 5218 to Kodak 2383		
+			Universal Camera Film to Kodak 2383		
+			My Custom RGB		
+			Custom...		
+		Toggle Show Rulers	Ctrl+R	
+		Toggle Show Guides	Ctrl+;	
+		Toggle Snap to Guides	Ctrl+Shift+;	
+		Toggle Lock Guides	Ctrl+Alt+Shift+;	
+		Clear Guides		
+		Toggle Show Grid	Ctrl+'	
+		Toggle Snap to Grid	Ctrl+Shift+'	
+		View Options	Ctrl+Alt+U	
+		Toggle Show Layer Controls	Ctrl+Shift+H	
+		Reset 3D View		
+		Switch 3D View		
+			Active Camera		
+			Front		
+			Left		
+			Top		
+			Back		
+			Right		
+			Bottom		
+			Custom View 1		
+			Custom View 2		
+			Custom View 3		
+		Assign Shortcut to “Active Camera”		
+			F10 (Replace “Front”)		
+			F11 (Replace “Custom View 1”)		
+			F12 (Replace “Active Camera”)		
+		Switch to Last 3D View	Escape	
+		Move Camera and its POI to Look at Selected Layers	F, Ctrl+Alt+Shift+¥, Ctrl+Alt+Shift+\	
+		Move Camera to Look At All Layers	Ctrl+Shift+F	
+		Go to Time	Alt+Shift+J	
+	Window		
+		Workspace		
+			All Panels		
+			Reset “ElbowGrease_ae_v001” to Saved Layout	Alt+G	
+			Save Changes to this Workspace		
+			Save as New Workspace...		
+			Edit Workspaces...		
+		Assign Shortcut to “ElbowGrease_ae_v001” Workspace		
+			Shift+F10 (Replace “Default”)		
+			Shift+F11 (Replace “Standard”)		
+			Shift+F12 (Replace “Small Screen”)		
+		Find Extensions on Exchange...		
+		Extensions		
+			Pro IO		
+			Adobe Color Themes		
+		Align		
+		Show/Hide Audio Panel	Ctrl+4	
+		Show/Hide Brushes Panel	Ctrl+9	
+		Show/Hide Character Panel	Ctrl+6	
+		Show/Hide Effects & Presets Panel	Ctrl+5	
+		Essential Graphics		
+		Show/Hide Info Panel	Ctrl+2	
+		Libraries		
+		Lumetri Scopes		
+		Mask Interpolation		
+		Media Browser		
+		Metadata		
+		Motion Sketch		
+		Show/Hide Paint Panel	Ctrl+8	
+		Show/Hide Paragraph Panel	Ctrl+7	
+		Show/Hide Preview Panel	Ctrl+3	
+		Progress		
+		Smoother		
+		Show/Hide Tools Panel	Ctrl+1	
+		Tracker		
+		Wiggler		
+	Cancel Preview	Escape	
+	Switch Between Composition/Timeline Panels	¥, \	
+	Switch Between Current and Last Accessed Composition	Shift+Escape	
+	Audio Preview (Here Forward)	. (Num), , (Num), Delete (Num)	
+	Audio Preview (Work Area)	Alt+. (Num), Alt+, (Num), Alt+Delete (Num)	
+	Preview (Numpad)	0 (Num),  (Num)	
+	PreviewNumpad0NFrames	Alt+0 (Num), Alt+ (Num)	
+	Preview (Shift Numpad)	Shift+0 (Num), Shift+ (Num)	
+	Show Console	Ctrl+F12	
+	Show Current Frame on External Monitor	/ (Num)	
+	WriteVersionFile	Ctrl+Shift+Help	
+	WriteVersionFileExtra	Ctrl+Alt+Shift+Help	
+	Select Next Panel in Frame	Alt+Shift+.	
+	Select Previous Panel in Frame	Alt+Shift+,	
+	Maximize Panel	`	
+	Maximize App Window	Ctrl+¥, Ctrl+\	
+	Maximize App Window on Primary Monitor	Ctrl+Alt+¥, Ctrl+Alt+\	
+	Rename	Enter	
+	StopRenderQueue	Escape, Ctrl+.	
+	Replace Selected Layer with Selected Footage Item	Ctrl+Alt+/	
+	CloseAll	Ctrl+Alt+W	
+	Show/Hide Properties with Keyframes (Extend; Double-Tap)	Shift+U	
+	Set Comp Resolution to Custom	Ctrl+Alt+J	
+	Deselect All Keyframes and Properties	Shift+F2, Ctrl+Alt+Shift+A	
+	Help	F1	
+	Save Shift+Numpad 0 Preview	Ctrl+Shift+0 (Num), Ctrl+Shift+ (Num)	
+	Scan for Changed Footage	Ctrl+Alt+Shift+Q	
+	Switch to Next Item in Viewer	Shift+.	
+	Switch to Previous Item in Viewer	Shift+,	
+	Show File Name of Frame's Footage in Info Panel	Ctrl+Alt+E	
+	Show/Hide Project Panel	Ctrl+0	
+	Show/Hide Render Queue Panel	Ctrl+Alt+0	
+	Show Flowchart for Project	Ctrl+F11	
+	Switch to 3D View #2	F11	
+	Switch to 3D View #3	F12	
+	Switch to 3D View #1	F10	
+	Switch to Workspace #1	Shift+F10	
+	Switch to Workspace #2	Shift+F11	
+	Switch to Workspace #3	Shift+F12	
+	Toggle Casts Shadows for Selected 3D Layers	Alt+Shift+C	
+	Toggle Switches / Modes Column	F4	
+Panels		
+	Character and Paragraph Panels		
+		Align Selected Text Center (Horiz or Vert)	Ctrl+Shift+C	
+		Align Selected Text Left (Horiz) or Top (Vert)	Ctrl+Shift+L	
+		Align Selected Text Right (Horiz) or Bottom (Vert)	Ctrl+Shift+R	
+		Toggle All Caps for Selected Text	Ctrl+Shift+K	
+		Auto Leading for Selected Text	Ctrl+Alt+Shift+A	
+		Cancel Changes to Text	Escape	
+		Commit Changes to Text	Enter (Num), Ctrl+Enter	
+		Move Insertion Point to End of Text Frame	Ctrl+End	
+		Move Insertion Point to Beginning of Text Frame	Ctrl+Home	
+		Move Insertion Point to Next Line (Horiz) or Char (Vert)	Down	
+		Move Insertion Point to Previous Char (Horiz) or Line (Vert)	Left	
+		Move Insertion Point to End of Line	End	
+		Move Insertion Point to Beginning of Line	Home	
+		Move Insertion Point to Next Char (Horiz) or Line (Vert)	Right	
+		Move Insertion Point to Previous Line (Horiz) or Char (Vert)	Up	
+		Move Insertion Point to Next Paragraph (Horiz) or Word (Vert)	Ctrl+Down	
+		Move Insertion Point to Previous Word (Horiz) or Paragraph (Vert)	Ctrl+Left	
+		Move Insertion Point to Next Word (Horiz) or Paragraph (Vert)	Ctrl+Right	
+		Move Insertion Point to Previous Paragraph (Horiz) or Word (Vert)	Ctrl+Up	
+		Decrease Baseline Shift by 2 px	Alt+Shift+Down	
+		Decrease Baseline Shift by 10 px	Ctrl+Alt+Shift+Down	
+		Decrease Font Size by 2 px	Ctrl+Shift+,	
+		Decrease Font Size by 10 px	Ctrl+Alt+Shift+,	
+		Decrease Kerning or Tracking by 20 units	Alt+Left	
+		Decrease Kerning or Tracking by 100 units	Ctrl+Alt+Left	
+		Decrease Leading by 2 px	Alt+Up	
+		Decrease Leading by 10 px	Ctrl+Alt+Up	
+		Backspace (Previous Character)	Backspace	
+		Delete (Next Character)	Delete	
+		Increase Baseline Shift by 2 px	Alt+Shift+Up	
+		Increase Baseline Shift by 10 px	Ctrl+Alt+Shift+Up	
+		Increase Font Size by 2 px	Ctrl+Shift+.	
+		Increase Font Size by 10 px	Ctrl+Alt+Shift+.	
+		Increase Kerning or Tracking by 20 px	Alt+Right	
+		Increase Kerning or Tracking by 100 px	Ctrl+Alt+Right	
+		Increase Leading by 2 px	Alt+Down	
+		Increase Leading by 10 px	Ctrl+Alt+Down	
+		Justify Paragraph; Force Last Line	Ctrl+Shift+F	
+		Justify Paragraph; Left Align Last Line	Ctrl+Shift+J	
+		Justify Paragraph; Right Align Last Line	Ctrl+Alt+Shift+J	
+		Reset Horizontal Scale of Selected Text	Ctrl+Shift+X	
+		Reset Tracking of Selected Text	Ctrl+Shift+Q	
+		Reset Vertical Scale of Selected Text	Ctrl+Alt+Shift+X	
+		Extend Selection to End of Text Frame	Ctrl+Shift+End	
+		Extend Selection to Beginning of Text Frame	Ctrl+Shift+Home	
+		Extend Selection 1 Line Down (Horiz) or 1 Char Down (Vert)	Shift+Down	
+		Extend Selection 1 Char to Left (Horiz) or 1 Line to Left (Vert)	Shift+Left	
+		Extend Selection to End of Line	Shift+End	
+		Extend Selection to Beginning of Line	Shift+Home	
+		Extend Selection 1 Char to Right (Horiz) or 1 Line to Right (Vert)	Shift+Right	
+		Extend Selection 1 Line Up (Horiz) or 1 Char Up (Vert)	Shift+Up	
+		Extend Selection 1 Word Down (Vert)	Ctrl+Shift+Down	
+		Extend Selection 1 Word to Left (Horiz)	Ctrl+Shift+Left	
+		Extend Selection 1 Word to Right (Horiz)	Ctrl+Shift+Right	
+		Extend Selection 1 Word Up (Vert)	Ctrl+Shift+Up	
+		Toggle Small Caps for Selected Text	Ctrl+Alt+Shift+K	
+		Toggle Subscript for Selected Text	Ctrl+Alt+Shift+=	
+		Toggle Superscript for Selected Text	Ctrl+Shift+=	
+		Toggle Composer for Selected Paragraphs	Ctrl+Alt+Shift+T	
+	Composition Panel		
+		Switch Fast Preview to Adaptive Resolution	Ctrl+Alt+2	
+		Switch Fast Preview to Draft	Ctrl+Alt+3	
+		Switch Fast Preview to Fast Draft	Ctrl+Alt+4	
+		Switch Fast Preview to Off (Final Quality)	Ctrl+Alt+1	
+		Switch Fast Preview to Wireframe	Ctrl+Alt+5	
+		Purge Snapshot 1	Ctrl+Shift+F5	
+		Purge Snapshot 2	Ctrl+Shift+F6	
+		Purge Snapshot 3	Ctrl+Shift+F7	
+		Purge Snapshot 4	Ctrl+Shift+F8	
+		Show/Hide Alpha Channel (Grayscale)	Alt+4	
+		Show/Hide RGB Straight Color	Alt+Shift+4	
+		Toggle Alpha Boundary	Alt+5	
+		Toggle Alpha Overlay	Alt+6	
+		Show/Hide Blue Channel (Grayscale)	Alt+3	
+		Show/Hide Blue Channel (Colorized)	Alt+Shift+3	
+		Show/Hide Green Channel (Grayscale)	Alt+2	
+		Show/Hide Green Channel (Colorized)	Alt+Shift+2	
+		Show/Hide Red Channel (Grayscale)	Alt+1	
+		Show/Hide Red Channel (Colorized)	Alt+Shift+1	
+		Show Snapshot 1	F5	
+		Show Snapshot 2	F6	
+		Show Snapshot 3	F7	
+		Show Snapshot 4	F8	
+		Toggle Refine Edge X-ray	Alt+X	
+		Take Snapshot 1	Shift+F5	
+		Take Snapshot 2	Shift+F6	
+		Take Snapshot 3	Shift+F7	
+		Take Snapshot 4	Shift+F8	
+		Show/Hide Proportional Grid	Alt+'	
+		Show/Hide Title/Action Safe Guides	'	
+		Show/Hide Grid	Shift+'	
+		Fit	Shift+/	
+		Fit up to 100%	Alt+/	
+		Select Next Mask	Alt+`	
+		Select Previous Mask	Alt+Shift+`	
+		Zoom to 100%	/	
+		ZoomInResize	Ctrl+=, Alt+.	
+		ZoomNoScroll	Ctrl+Alt+/	
+		ZoomOutResize	Ctrl+-, Alt+,	
+		Go to Composition Marker '0'	0	
+		Go to Composition Marker '1'	1	
+		Go to Composition Marker '2'	2	
+		Go to Composition Marker '3'	3	
+		Go to Composition Marker '4'	4	
+		Go to Composition Marker '5'	5	
+		Go to Composition Marker '6'	6	
+		Go to Composition Marker '7'	7	
+		Go to Composition Marker '8'	8	
+		Go to Composition Marker '9'	9	
+		Create Composition Marker '0'	Shift+0	
+		Create Composition Marker '1'	Shift+1	
+		Create Composition Marker '2'	Shift+2	
+		Create Composition Marker '3'	Shift+3	
+		Create Composition Marker '4'	Shift+4	
+		Create Composition Marker '5'	Shift+5	
+		Create Composition Marker '6'	Shift+6	
+		Create Composition Marker '7'	Shift+7	
+		Create Composition Marker '8'	Shift+8	
+		Create Composition Marker '9'	Shift+9	
+		Go to End of Composition, Layer, or Footage Item	End (Num), End, Ctrl+Alt+Right	
+		Go to Earliest In Point of Selected Layers	I	
+		Go to Next Layer In or Out Point	Ctrl+Alt+Shift+Right	
+		Go to Latest Out Point of Selected Layers	O	
+		Go to Previous Layer In or Out Point	Ctrl+Alt+Shift+Left	
+		Go to End of Work Area	Shift+End	
+		Go to Start of Work Area	Shift+Home	
+		Go to Start of Composition, Layer, or Footage Item	Home (Num), Home, Ctrl+Alt+Left	
+		Set Layer In Point at Current Time	[	
+		Set Layer Out Point at Current Time	]	
+		Preview (Time Shift)	Shift+Space	
+		Preview	Space	
+		Go Back 1 Frame	Page Up (Num), Left, Page Up, Ctrl+Left	
+		Go Back 10 Frames	Shift+Page Up, Ctrl+Shift+Left	
+		Go Forward 1 Frame	Page Down (Num), Right, Page Down, Ctrl+Right	
+		Go Forward 10 Frames	Shift+Page Down, Ctrl+Shift+Right	
+		Stretch Layer In Point to Current Time	Ctrl+Shift+,	
+		Stretch Layer Out Point to Current Time	Ctrl+Alt+,	
+		Trim Layer In Point to Current Time	Alt+[	
+		Trim Layer Out Point to Current Time	Alt+]	
+	Effect Controls Panel		
+		Select Next Effect	Down, Ctrl+Down	
+		Extend Selection to Next Effect	Shift+Down, Ctrl+Shift+Down	
+		Select Previous Effect	Up, Ctrl+Up	
+		Extend Selection to Previous Effect	Shift+Up, Ctrl+Shift+Up	
+		Collapse Selected Property Group	Left	
+		Expand Selected Property Group	Right	
+	Flowchart Panel		
+		ClearWithoutWarning	Ctrl+Backspace	
+	Layer Panel		
+		ClearMask	Alt+Delete, Alt+Backspace	
+		Move Layer 1 Screen Pixel Down	Down, Alt+Down	
+		Move Layer 10 Screen Pixels Down	Shift+Down, Alt+Shift+Down	
+		Move Layer 1 Screen Pixel to the Left	Left	
+		Move Layer 10 Screen Pixels to the Left	Shift+Left	
+		NudgeOpacityDown	Ctrl+Alt+- (Num)	
+		NudgeOpacityDownMore	Ctrl+Alt+Shift+- (Num)	
+		NudgeOpacityUp	Ctrl+Alt++ (Num)	
+		NudgeOpacityUpMore	Ctrl+Alt+Shift++ (Num)	
+		Move Layer 1 Screen Pixel to the Right	Right	
+		Move Layer 10 Screen Pixels to the Right	Shift+Right	
+		Rotate Layer 1 Degree Counterclockwise	- (Num)	
+		Rotate Layer 10 Degrees Counterclockwise	Shift+- (Num)	
+		Rotate Layer 1 Degree Clockwise	+ (Num)	
+		Rotate Layer 10 Degrees Clockwise	Shift++ (Num)	
+		Scale Layer 1% Larger	Ctrl++ (Num), Alt++ (Num)	
+		Scale Layer 10% Larger	Ctrl+Shift++ (Num), Alt+Shift++ (Num)	
+		Scale Layer 1% Smaller	Ctrl+- (Num), Alt+- (Num)	
+		Scale Layer 10% Smaller	Ctrl+Shift+- (Num), Alt+Shift+- (Num)	
+		Move Layer 1 Screen Pixel Up	Up, Alt+Up	
+		Move Layer 10 Screen Pixels Up	Shift+Up, Alt+Shift+Up	
+		Show/Hide All of the Selected Layers' Properties	Ctrl+`	
+		TwirlPreserveSolo	Shift+`	
+		TwirlPreserveSoloExplode	Ctrl+Shift+`	
+	Paint Panel		
+		Reset Foreground/Background to Black/White	D	
+		Swap Foreground/Background Colors	X	
+		Set Paint Flow to  10%	Shift+1 (Num)	
+		Set Paint Flow to 100%	Shift+. (Num), Shift+, (Num), Shift+Delete (Num)	
+		Set Paint Flow to  20%	Shift+2 (Num)	
+		Set Paint Flow to  30%	Shift+3 (Num)	
+		Set Paint Flow to  40%	Shift+4 (Num)	
+		Set Paint Flow to  50%	Shift+5 (Num)	
+		Set Paint Flow to  60%	Shift+6 (Num)	
+		Set Paint Flow to  70%	Shift+7 (Num)	
+		Set Paint Flow to  80%	Shift+8 (Num)	
+		Set Paint Flow to  90%	Shift+9 (Num)	
+		Set Paint Opacity to  10%	1 (Num)	
+		Set Paint Opacity to 100%	. (Num), , (Num), Delete (Num)	
+		Set Paint Opacity to  20%	2 (Num)	
+		Set Paint Opacity to  30%	3 (Num)	
+		Set Paint Opacity to  40%	4 (Num)	
+		Set Paint Opacity to  50%	5 (Num)	
+		Set Paint Opacity to  60%	6 (Num)	
+		Set Paint Opacity to  70%	7 (Num)	
+		Set Paint Opacity to  80%	8 (Num)	
+		Set Paint Opacity to  90%	9 (Num)	
+		Paint Tools - Go Back by Stroke Duration	1, Ctrl+Page Up	
+		Paint Tools - Go Forward by Stroke Duration	2, Ctrl+Page Down	
+		Clone Preset 1	3	
+		Clone Preset 2	4	
+		Clone Preset 3	5	
+		Clone Preset 4	6	
+		Clone Preset 5	7	
+	Project Panel		
+		Open Footage Item in Footage Panel	Enter (Num)	
+	Render Queue Panel		
+		Start Render	Enter (Num), Enter	
+	Timeline Panel		
+		Add Layer Marker Using Dialog Box	Alt+* (Num)	
+		Open Layer Source in Layer Panel	Enter (Num), Enter	
+		Paste Layers at Current Time	Ctrl+Alt+V	
+		Set Work Area End	N	
+		Set Work Area Start	B	
+		Set Work Area to Selected Layers	Ctrl+Alt+B	
+		Open Composition	¥, \	
+		Scroll Selected Layer to Top	X	
+		Scroll to Current Time	D	
+		Select Layer by Number: 1	1 (Num)	
+		Select Layer by Number: 2	2 (Num)	
+		Select Layer by Number: 3	3 (Num)	
+		Select Layer by Number: 4	4 (Num)	
+		Select Layer by Number: 5	5 (Num)	
+		Select Layer by Number: 6	6 (Num)	
+		Select Layer by Number: 7	7 (Num)	
+		Select Layer by Number: 8	8 (Num)	
+		Select Layer by Number: 9	9 (Num)	
+		Zoom In to Frame Intervals	;	
+		Zoom In	=	
+		Zoom Out	-	
+		Toggle Zoom Level	Shift+;	
+		Show/Hide Effects (Double-Tap: Expressions)	E	
+		Show/Hide Effects (Extend; Double-Tap: Expressions)	Shift+E	
+		Show/Hide Mask Feather (Double-Tap)	F	
+		Show/Hide Mask Feather (Extend; Double-Tap)	Shift+F	
+		Add/Delete Mask Feather Keyframe at Current Time	Alt+Shift+F	
+		Show/Hide Mask Shape (Double-Tap)	M	
+		Show/Hide Mask Shape (Extend; Double-Tap)	Shift+M	
+		Add/Delete Mask Shape Keyframe at Current Time	Alt+Shift+M	
+		Toggle Selection of Layer by Number: 1	Shift+1 (Num)	
+		Toggle Selection of Layer by Number: 2	Shift+2 (Num)	
+		Toggle Selection of Layer by Number: 3	Shift+3 (Num)	
+		Toggle Selection of Layer by Number: 4	Shift+4 (Num)	
+		Toggle Selection of Layer by Number: 5	Shift+5 (Num)	
+		Toggle Selection of Layer by Number: 6	Shift+6 (Num)	
+		Toggle Selection of Layer by Number: 7	Shift+7 (Num)	
+		Toggle Selection of Layer by Number: 8	Shift+8 (Num)	
+		Toggle Selection of Layer by Number: 9	Shift+9 (Num)	
+		Show/Hide Anchor Point or Position of Interest	A	
+		Show/Hide Anchor Point or Position of Interest (Extend)	Shift+A	
+		Add/Delete Anchor Point or Position of Interest Keyframe at Current Time	Alt+Shift+A	
+		Show/Hide Audio Levels	L	
+		Show/Hide Audio Levels (Extend)	Shift+L	
+		Add/Delete Audio Levels Keyframe at Current Time	Alt+Shift+L	
+		Show/Hide Opacity	T	
+		Show/Hide Opacity (Extend)	Shift+T	
+		Add/Delete Opacity Keyframe at Current Time	Alt+Shift+T	
+		Show/Hide Position	P	
+		Show/Hide Position (Extend)	Shift+P	
+		Add/Delete Position Keyframe at Current Time	Alt+Shift+P	
+		Show/Hide Rotation and Orientation Properties	R	
+		Show/Hide Rotation and Orientation Properties (Extend)	Shift+R	
+		Add/Delete Rotation or Orientation Keyframe at Current Time	Alt+Shift+R	
+		Show/Hide Scale	S	
+		Show/Hide Scale (Extend)	Shift+S	
+		Add/Delete Scale Keyframe at Current Time	Alt+Shift+S	
+		Go to Next Keyframe	K	
+		Shift Layer 1 Frame Earlier	Alt+Page Up	
+		Shift Layer 10 Frames Earlier	Alt+Shift+Page Up	
+		Shift Selected Keyframes 1 Frame Earlier	Alt+Left	
+		Shift Selected Keyframes 10 Frames Earlier	Alt+Shift+Left	
+		Shift Selected Keyframes 1 Frame Later	Alt+Right	
+		Shift Selected Keyframes 10 Frames Later	Alt+Shift+Right	
+		Shift Layer 1 Frame Later	Alt+Page Down	
+		Shift Layer 10 Frames Later	Alt+Shift+Page Down	
+		Go to Previous Keyframe	J	
+		Select All Visible Keyframes and Exposed Properties	Ctrl+Alt+A	
+		Align Selected Layers' In Points to End of Composition	Alt+End	
+		Align Selected Layers' In Points to Start of Composition	Alt+Home	
+		Show/Hide Graph Editor	Shift+F3	
+		Show/Hide Parent Column	Shift+F4	
+	Tracker Panel		
+		Move Track Point Down 1 Screen Pixel	Down	
+		Move Track Point (Not Attach Point) Down 1 Screen Pixel	Alt+Down	
+		Move Track Point (Not Attach Point) Down 10 Screen Pixels	Alt+Shift+Down	
+		Move Track Point Down 10 Screen Pixels	Shift+Down	
+		Move Track Point Left 1 Screen Pixel	Left	
+		Move Track Point (Not Attach Point) Left 1 Screen Pixel	Alt+Left	
+		Move Track Point (Not Attach Point) Left 10 Screen Pixels	Alt+Shift+Left	
+		Move Track Point Left 10 Screen Pixels	Shift+Left	
+		Move Track Point Right 1 Screen Pixel	Right	
+		Move Track Point (Not Attach Point) Right 1 Screen Pixel	Alt+Right	
+		Move Track Point (Not Attach Point) Right 10 Screen Pixels	Alt+Shift+Right	
+		Move Track Point Right 10 Screen Pixels	Shift+Right	
+		Move Track Point Up 1 Screen Pixel	Up	
+		Move Track Point (Not Attach Point) Up 1 Screen Pixel	Alt+Up	
+		Move Track Point (Not Attach Point) Up 10 Screen Pixels	Alt+Shift+Up	
+		Move Track Point Up 10 Screen Pixels	Shift+Up	
+		Set Out Point of 'Motion Tracker Points' Bar in Layer Panel	Alt+]	
+		Set In Point of 'Motion Tracker Points' Bar in Layer Panel	Alt+[	
+	Viewer Panel		
+		New Viewer	Alt+Shift+N	
+

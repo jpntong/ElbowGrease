@@ -1,0 +1,3 @@
+Database Name: avn01
+User Name: guest
+Project Name: OzzyRom_ColourTest

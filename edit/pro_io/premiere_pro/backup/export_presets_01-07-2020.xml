@@ -1,0 +1,16 @@
+<proio_presets>
+  <about>Pro IO presets file. You can add and modify presets through the Pro IO Panel in After Effects or Premiere. If you have the need to edit this document manually, make sure each entry is complete and don't mix AE and AME render modes in one preset.</about>
+  <export app="ame" name="ANIM-wm-mp4">
+    <output destination="../export" renderTemplate="" subfolder="false" nameFormat="#SEQ_Anim_wip#VV" file="~/Documents/Adobe/Adobe Media Encoder/12.0/Presets/MA H.264 CBR_QUICK-bug.epr"/>
+  </export>
+  <export app="ame" name="COMP-wm.timecode-mp4">
+    <output destination="../export" renderTemplate="" subfolder="false" nameFormat="#SEQ_Comp_wip#VV" file="~/Documents/Adobe/Adobe Media Encoder/12.0/Presets/H.264 CBR-bug.timecode.25.1080.epr"/>
+  </export>
+  <export app="ame" name="SEQ_EXR">
+    <output destination="../export/CompFrames" renderTemplate="" subfolder="true" nameFormat="#SEQ_SeqFrames_wip#VV_" file="~/Documents/Adobe/Adobe Media Encoder/12.0/Presets/MA oEXR Maximum.epr"/>
+  </export>
+  <export app="ame" name="COMP-mp4+exrs">
+    <output destination="../export" renderTemplate="" subfolder="false" nameFormat="#SEQ_Comp_wip#VV" file="/s/MAL/jtong/MA Edit/JoshPro Settings/AME Presets/MA H.264 HBRVBR-bug.epr"/>
+    <output destination="../export" renderTemplate="" subfolder="true" nameFormat="#SEQ_CompFrames_wip#VV" file="~/Documents/Adobe/Adobe Media Encoder/12.0/Presets/MA oEXR Maximum.epr"/>
+  </export>
+</proio_presets>
